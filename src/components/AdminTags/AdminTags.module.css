@@ -1,0 +1,122 @@
+.tagsWrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+}
+
+.tagsItem {
+  display: flex;
+  border-radius: 23px;
+  border: 1px solid var(--Grey-20);
+  height: 24px;
+  padding: 0 8px;
+  gap: 4px;
+  align-items: center;
+  background-color: white;
+}
+
+.addBtn {
+  height: 24px;
+  border: 1px solid var(--Petrol-100);
+  border-radius: 24px;
+  width: 48px;
+}
+
+.tagsMenu {
+  position: absolute;
+  box-sizing: border-box;
+  display: flex;
+  top: 32px;
+  left: -126px;
+  z-index: 103;
+  background-color: #3a3d40;
+  padding: 12px 16px;
+  border-radius: 8px;
+  flex-direction: column;
+  gap: 12px;
+  width: 300px;
+}
+
+.tagsList {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.dropdownContainer {
+  position: relative;
+  display: inline-block;
+  min-width: 160px;
+  width: 100%;
+}
+
+.dropdownButton {
+  height: 40px !important;
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 8px;
+  border: 1px solid var(--Grey-20, #e1e0df);
+  background-color: unset !important;
+  color: white;
+  padding-left: 42px !important;
+  padding: 10px;
+  padding-right: 12px;
+}
+
+.dropdownButton::placeholder {
+  color: white;
+  opacity: 1; /* Firefox */
+}
+
+.inputWrapper {
+  display: flex;
+  position: relative;
+  align-items: center; /* Центрирование по вертикали */
+}
+
+.search_icon {
+  position: absolute;
+  left: 12px;
+  pointer-events: none;
+  color: white;
+}
+
+.tagSettings {
+  position: absolute;
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: column;
+  width: 110px;
+  right: 30px;
+  background-color: #3a3d40;
+  z-index: 110;
+  top: 0;
+  gap: 8px;
+  box-shadow: 0px 0px 9.4px 0px rgba(0, 0, 0, 0.95);
+  padding: 8px 0;
+  border-radius: 8px;
+  align-items: center;
+  p {
+    color: white;
+  }
+}
+
+.settingsItem {
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: row;
+  padding: 4px 16px;
+  gap: 8px;
+  width: 100%;
+  align-items: center;
+  cursor: pointer;
+}
+
+.settingsItem:hover {
+  background-color: #6d7379;
+}

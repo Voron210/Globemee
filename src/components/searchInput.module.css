@@ -1,0 +1,52 @@
+.dropdown {
+  position: relative;
+}
+
+.dropdown_content {
+  margin-top: 8px;
+  width: 100%;
+  position: absolute;
+  background-color: white;
+  z-index: 103;
+  border: solid 1px;
+  border-radius: 8px;
+  box-sizing: border-box;
+  max-height: 300px;
+  overflow-y: auto; /* добавляем прокрутку по вертикали */
+}
+
+.item {
+  height: 50px;
+  box-sizing: border-box;
+  padding: 5px 10px 5px 10px;
+  display: flex; /* Enable flexbox */
+  align-items: center; /* Center items vertically */
+}
+
+.item:hover {
+  background-color: var(--yellow-20);
+}
+
+.selected {
+  background-color: var(--yellow-20);
+}
+
+.input {
+  position: relative;
+  /* margin: 5px 0; */
+}
+
+.input_container {
+  box-sizing: border-box;
+  width: 100%;
+  position: relative;
+  display: inline-block;
+}
+
+.input_arrow {
+  position: absolute;
+  right: 8px; /* Adjust this value if necessary */
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+}

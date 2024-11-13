@@ -1,0 +1,39 @@
+.cookieBanner {
+  position: fixed;
+  box-sizing: border-box;
+  top: 0;
+  width: 100%;
+  background-color: #1c1c1c;
+  color: #fff;
+  text-align: center;
+  padding: 15px 35px;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cookieBanner p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.learnMore {
+  color: #1e90ff;
+  text-decoration: none;
+  margin-left: 5px;
+}
+
+.acceptButton {
+  background-color: #ffd700;
+  color: #000;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 5px;
+}
+
+.acceptButton:hover {
+  background-color: #e6b800;
+}

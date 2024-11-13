@@ -1,0 +1,62 @@
+.languageWrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.languageRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.language_column {
+  display: flex;
+  flex: 1;
+  width: 20%;
+  max-width: 40%;
+  box-sizing: border-box;
+  background-color: white;
+}
+
+.languageSelect,
+.levelSelect {
+  margin-right: 8px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  flex: 1;
+}
+
+.removeButton {
+  color: var(--Orange-100);
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.addButton {
+  display: flex;
+  align-items: center;
+  background: none;
+  border: 1px solid var(--petrol-80);
+  border-radius: 100px;
+  padding: 8px;
+  cursor: pointer;
+  width: 80px;
+  height: 40px;
+  color: var(--petrol-80);
+  background-color: white;
+}
+
+.addIcon {
+  font-size: 24px;
+  margin-right: 4px;
+}
+
+@media screen and (max-width: 900px) {
+}

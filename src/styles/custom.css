@@ -1,0 +1,216 @@
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  white-space: normal;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
+div.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+div.start {
+  display: flex;
+  justify-content: flex-start;
+}
+
+div.space-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+div.space-around {
+  display: flex;
+  justify-content: space-around;
+}
+
+div.end {
+  display: flex;
+  justify-content: flex-end;
+}
+
+div.gap {
+  gap: 32px;
+}
+
+div.midGap {
+  gap: 16px;
+}
+
+div.minGap {
+  gap: 8px;
+}
+
+body.no-scroll {
+  overflow: hidden;
+}
+
+div.radio_list {
+  display: flex;
+  flex-direction: row;
+}
+
+div.radio_item {
+  flex: auto;
+}
+
+.react-tooltip {
+  z-index: 3000;
+  border-radius: 8px !important;
+  word-break: normal !important;
+  color: white !important;
+  max-width: 300px !important;
+  p {
+    color: white !important;
+  }
+}
+
+input.error {
+  border: 1px solid var(--errorRed) !important;
+}
+
+textarea.error {
+  border: 1px solid var(--errorRed) !important;
+}
+
+input[type="checkbox"].error {
+  /* outline: 1px solid var(--errorRed) !important; */
+  -webkit-appearance: none;
+  border: none;
+}
+
+div.content_block {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 32px;
+  border-radius: 20px;
+  border: 1px solid var(--Grey-20, #e1e0df);
+  background: var(--White, #fff);
+}
+
+div.click {
+  cursor: pointer;
+}
+
+div.flex_list {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 16px;
+  margin-top: 10px;
+}
+
+div.flex_item {
+  padding: 0 10px;
+  border: 1px solid var(--grey-40);
+  border-radius: 100px;
+}
+
+div.content-part {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.react-datepicker-popper {
+  z-index: 25 !important;
+}
+
+.tooltip {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+div.flexOne {
+  display: flex;
+  flex: 1;
+}
+
+.MuiInputBase-root {
+  height: 50px !important;
+  width: 100%;
+  border-radius: 8px !important;
+}
+
+/* Стиль самого скроллбара */
+::-webkit-scrollbar {
+  width: 5px; /* Ширина вертикального скроллбара */
+  height: 5px; /* Высота горизонтального скроллбара */
+}
+
+/* Стиль дорожки (background) скроллбара */
+::-webkit-scrollbar-track {
+  background: #f4f4f4;
+  border-radius: 5px;
+}
+
+/* Стиль ползунка (thumb) скроллбара */
+::-webkit-scrollbar-thumb {
+  background: #c4c4c4;
+  border-radius: 5px;
+}
+
+/* Стиль ползунка при наведении */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.ellipsis {
+  white-space: nowrap; /* Запрещает перенос текста на новую строку */
+  overflow: hidden; /* Обрезает текст, который выходит за пределы контейнера */
+  text-overflow: ellipsis; /* Добавляет многоточие в конце обрезанного текста */
+  width: 200px; /* Ширина контейнера для демонстрации */
+  /* display: block; */
+}
+
+.gap-4 {
+  gap: 4px;
+}
+
+.gap-8 {
+  gap: 8px;
+}
+
+.gap-12 {
+  gap: 12px;
+}
+
+.gap-16 {
+  gap: 16px;
+}
+
+.gap-24 {
+  gap: 24px;
+}
+
+.gap-32 {
+  gap: 32px;
+}
+
+.gap-48 {
+  gap: 48px;
+}
+
+.gap-64 {
+  gap: 64px;
+}
+
+@media screen and (max-width: 900px) {
+  div.radio_list {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+}

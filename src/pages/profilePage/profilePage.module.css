@@ -1,0 +1,154 @@
+.profile_page {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 300px;
+}
+
+.profile_header {
+  box-sizing: border-box;
+  padding: 30px;
+  width: 100%;
+  margin-top: 40px;
+  cursor: pointer;
+  background-color: white;
+  border: 1px solid var(--grey-20);
+  border-radius: 8px;
+}
+
+.profile_upload {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: white;
+  padding: 32px;
+  border: 1px solid var(--grey-40);
+  border-radius: 8px;
+  margin-top: 20px;
+  cursor: default;
+}
+
+.content_column {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  gap: 40px;
+  width: 100%;
+  transition: all 0.3s ease; /* Добавляем плавный переход */
+}
+
+.profile_content {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin-top: 32px;
+  gap: 32px;
+  box-sizing: border-box;
+  transition: all 0.3s ease; /* Добавляем плавный переход */
+}
+
+.profile_section {
+  gap: 5px;
+  display: flex;
+  cursor: pointer;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: white;
+  border: 1px solid var(--grey-20);
+  z-index: 5;
+  padding: 30px 30px 60px 30px;
+  border-radius: 8px;
+  flex: 1;
+  min-width: 300px;
+  position: relative;
+  transition: all 0.3s ease; /* Добавляем плавный переход */
+
+  hr {
+    width: 100%;
+    height: 1px;
+    background-color: var(--darkGreay);
+    margin: 5px 0;
+  }
+  hr.hr_section {
+    background-color: var(--grey-40);
+  }
+}
+
+.text_list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.list {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px 12px;
+}
+
+.item {
+  max-width: 100%;
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  border: 1px solid var(--darkGreay);
+  padding: 0 12px;
+  height: 40px;
+}
+
+.icons {
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+}
+
+.header_icon {
+  height: 30px;
+}
+
+.header_item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.header_list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+@media screen and (max-width: 900px) {
+  .profile_content {
+    flex-direction: column;
+  }
+
+  .profile_section {
+    width: 100%;
+  }
+
+  .profile_section {
+    padding: 10px 10px 20px 10px;
+  }
+
+  .profile_header {
+    padding: 10px;
+  }
+
+  .header_list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    justify-content: space-between;
+    margin-top: 16px;
+  }
+
+  .profile_upload {
+    flex-direction: column;
+    gap: 16px;
+    padding: 10px;
+    margin-top: 16px;
+  }
+}
