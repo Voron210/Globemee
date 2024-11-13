@@ -1,0 +1,61 @@
+.item {
+  display: flex;
+  max-width: 256px;
+  box-sizing: border-box;
+  padding: 16px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  border-radius: 8px;
+  border: 1px solid var(--Grey-20, #e1e0df);
+  background: var(--White, #fff);
+  margin-bottom: 16px;
+  cursor: grab;
+  transition: transform 0.1s ease, box-shadow 0.1s ease;
+}
+
+.item:hover {
+  transform: translateY(-2px); /* Легкий сдвиг вверх при наведении */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Тень при наведении */
+}
+
+.item:active {
+  transform: scale(1.05); /* Легкое увеличение при перетаскивании */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Усиленная тень при перетаскивании */
+}
+
+.item.dragging {
+  opacity: 0.7; /* Полупрозрачность для перетаскиваемого элемента */
+  transition: none; /* Отключаем плавные переходы во время перетаскивания */
+}
+
+.tagList {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.tag {
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+  border-radius: 4px;
+  background-color: #f1f0ef;
+  width: fit-content;
+  padding: 4px 8px;
+  align-items: center;
+  span {
+    font-size: 12px;
+  }
+}
+
+.red {
+  color: #d33c3c;
+  background-color: #feefeb;
+}
+
+.green {
+  color: #4b7c3a;
+  background-color: #e1f2db;
+}

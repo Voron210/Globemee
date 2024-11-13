@@ -1,0 +1,55 @@
+.historyWrapper {
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  box-sizing: border-box;
+  width: 100%;
+  border: 1px solid var(--Grey-60);
+  padding: 32px;
+  margin-top: 32px;
+}
+
+.historyList {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  max-height: 600px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  gap: 10px;
+}
+
+.historyItem {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.green {
+  background-color: #4b7c3a;
+}
+
+.yellow {
+  background-color: #ffb956;
+}
+
+.blue {
+  background-color: #447582;
+}
+
+.red {
+  background-color: #d33c3c;
+}
+
+.orange {
+  background-color: #ff7e55;
+}

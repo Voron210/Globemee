@@ -1,0 +1,47 @@
+.container {
+  /* padding: 20px; */
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.highlight {
+  color: #007bff;
+}
+
+.contentBlock {
+  margin-top: 20px;
+}
+
+.status.open {
+  color: green;
+}
+
+.status.closed {
+  color: red;
+}
+
+.status.pending {
+  color: orange;
+}
+
+.jobTable {
+  margin-top: 16px;
+}
+
+.jobTable table {
+  border-collapse: collapse;
+}
+
+.jobTable thead tr {
+  border-bottom: 1pt solid var(--Grey-80);
+  height: 50px;
+}
+
+.jobTable tbody tr {
+  border-bottom: 1pt solid var(--Grey-20);
+}
+
+/* .jobTable tbody tr:last-child {
+  border-bottom: none;
+} */

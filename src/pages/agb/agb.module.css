@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 1080px;
+  padding: 0 40px;
+}
+
+.layout {
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+}
+
+.back_btn {
+  display: flex;
+  margin-bottom: 60px;
+  justify-content: flex-start;
+  color: var(--orange-100);
+  flex-direction: row;
+  gap: 10px;
+  p {
+    color: var(--Orange-100);
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .container {
+    padding: 0 20px;
+  }
+
+  .layout {
+    padding-top: 20px;
+  }
+
+  .back_btn {
+    margin-bottom: 20px;
+  }
+}

@@ -1,0 +1,18 @@
+.error_content {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+}
+
+.btn {
+  display: flex;
+  flex: 1;
+}

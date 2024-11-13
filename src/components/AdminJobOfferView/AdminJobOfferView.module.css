@@ -1,0 +1,30 @@
+.modalBackground {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  background-color: white;
+  box-sizing: border-box;
+  padding: 72px 0;
+  padding-bottom: 100px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  z-index: 90;
+  overflow-y: auto;
+}
+
+.modalContent {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  height: 100%;
+  width: 1120px;
+  max-width: 1120px;
+  position: relative;
+  overflow-y: visible;
+}

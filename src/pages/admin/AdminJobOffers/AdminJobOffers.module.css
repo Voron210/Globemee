@@ -1,0 +1,143 @@
+.filterWrapper {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 100%;
+  padding: 40px;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+
+.filterContainer {
+  margin-top: 32px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 64px;
+}
+
+.fiterColumn {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  flex: 1;
+}
+
+.tableWrapper {
+  display: flex;
+}
+
+.tableWrapper table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.tableWrapper th {
+  cursor: pointer;
+  background-color: var(--Beige-100);
+  padding: 8px;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  word-break: break-word;
+  white-space: normal;
+}
+
+.tableWrapper th:first-child {
+  padding-left: 32px;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.tableWrapper th:last-child {
+  padding-right: 32px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.tableWrapper th:hover {
+  background-color: var(--Yellow-60);
+}
+
+.tableWrapper td {
+  padding: 8px;
+}
+
+.tableWrapper td:first-child {
+  padding-left: 32px;
+}
+
+.tableWrapper td:last-child {
+  padding-right: 32px;
+}
+
+.tableWrapper tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.table_head {
+  height: 50px;
+}
+
+.table_prio {
+  text-align: center;
+  width: 40px;
+}
+
+.table_creation {
+  text-align: center;
+  width: 100px;
+}
+
+.table_title {
+  text-align: start;
+}
+
+.table_company {
+  text-align: start;
+  width: 200px;
+}
+
+.table_location {
+  text-align: start;
+  width: 150px;
+}
+
+.table_lang {
+  text-align: center;
+  width: 100px;
+}
+
+.table_exp {
+  text-align: center;
+  width: 130px;
+}
+
+.table_btn {
+  max-width: 30px;
+}
+
+.cell50 {
+  box-sizing: border-box;
+  max-width: 100px;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.cell100 {
+  box-sizing: border-box;
+  max-width: 100px;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.cellfree {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  word-break: break-word;
+  white-space: normal;
+}

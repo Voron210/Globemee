@@ -1,0 +1,105 @@
+.modalBackground {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  background-color: white;
+  box-sizing: border-box;
+  padding: 72px 0;
+  padding-bottom: 100px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  z-index: 90;
+  overflow-y: auto;
+}
+
+.modalContent {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  height: 100%;
+  width: 1120px;
+  max-width: 1120px;
+  position: relative;
+  overflow-y: visible;
+}
+
+.infoContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 16px 0;
+  gap: 32px;
+}
+
+.matchWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 32px;
+  border: 1px solid var(--Grey-60);
+  background-color: var(--Beige-40);
+  border-radius: 8px;
+  padding: 32px;
+  align-items: center;
+}
+
+.jobHead {
+  position: sticky;
+  top: 0;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  padding: 16px 0;
+  z-index: 90;
+  width: 100%;
+  border-bottom: 1px solid var(--Grey-60);
+}
+
+.headContent {
+  display: flex;
+  flex-direction: column;
+  max-width: 1120px;
+  gap: 16px;
+  width: 100%;
+}
+
+.infoItem {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 8px;
+}
+
+.blockDivide {
+  border-bottom: 1px solid var(--Grey-60);
+}
+
+.hr_section {
+  border-bottom: 1px solid var(--Grey-60);
+}
+
+.softSkillsGrid {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 500px;
+}
+
+.skillRow {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.skillLabel {
+  flex: 1; /* Для того, чтобы текст был на краях */
+}
+
+.skillPoint {
+  display: inline-block;
+}

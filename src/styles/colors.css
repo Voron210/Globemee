@@ -1,0 +1,76 @@
+:root {
+  --black: #222222;
+
+  --orange-100: #ff7e55;
+  --orange-80: #ff9877;
+  --orange-60: #ffb299;
+  --orange-40: #ffcbbb;
+  --orange-20: #ffe5dd;
+
+  --yellow-100: #ffb956;
+  --yellow-80: #ffc778;
+  --yellow-60: #ffd59a;
+  --yellow-40: #ffe3bb;
+  --yellow-20: #fff1dd;
+
+  --grey-100: #6a6361;
+  --grey-80: #888281;
+  --grey-60: #a6a1a0;
+  --grey-40: #c3c1c0;
+  --grey-20: #e1e0df;
+
+  --petrol-100: #155263;
+  --petrol-80: #447582;
+  --petrol-60: #7397a1;
+  --petrol-40: #a1bac1;
+  --petrol-20: #d0dce0;
+
+  --beige-100: #fff6e8;
+  --beige-80: #fff8ed;
+  --beige-60: #fffaf1;
+  --beige-40: #fffbf6;
+
+  --darkGreay: #2f2d29;
+  --peach: #ffc8b6;
+  --errorRed: #d33c3c;
+
+  /* BIG FIRST LETTER */
+  --Black: #222222;
+  --White: #fff;
+
+  --Orange-20: #ffe5dd;
+  --Orange-100: #ff7e55;
+  --Orange-80: #ff9877;
+  --Orange-60: #ffb299;
+  --Orange-40: #ffcbbb;
+
+  --Yellow-100: #ffb956;
+  --Yellow-80: #ffc778;
+  --Yellow-60: #ffd59a;
+  --Yellow-40: #ffe3bb;
+  --Yellow-20: #fff1dd;
+
+  --Grey-100: #6a6361;
+  --Grey-80: #888281;
+  --Grey-60: #a6a1a0;
+  --Grey-40: #c3c1c0;
+  --Grey-20: #e1e0df;
+
+  --Petrol-100: #155263;
+  --Petrol-80: #447582;
+  --Petrol-60: #7397a1;
+  --Petrol-40: #a1bac1;
+  --Petrol-20: #d0dce0;
+
+  --Beige-100: #fff6e8;
+  --Beige-80: #fff8ed;
+  --Beige-60: #fffaf1;
+  --Beige-40: #fffbf6;
+
+  --DarkGreay: #2f2d29;
+  --Peach: #ffc8b6;
+  --ErrorRed: #d33c3c;
+  /*  */
+
+  --border-radius: 8px;
+}

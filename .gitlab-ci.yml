@@ -1,0 +1,19 @@
+stages:
+  - update-hotfix
+
+update_hotfix_branch:
+  stage: update-hotfix
+  only:
+    - production
+  script:
+    - echo "Updating hotfix branch from production..."
+    - git config --global user.name "GitLab CI"
+    - git config --global user.email "stanislav.savinetskii@globemee.com"
+    - git remote set-url origin "https://CI_Bot:$GITLAB_ACCESS_TOKEN@gitlab.com/globemee/frontend.git"
+    - git fetch origin
+    - git checkout hotfix
+    - git pull origin hotfix
+    - git merge origin/production
+    - git push origin hotfix
+
+    

@@ -1,0 +1,21 @@
+.list {
+  display: flex;
+  margin: 16px 0;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.item {
+  border: 1px solid var(--orange-100);
+  color: var(--orange-100);
+  box-sizing: border-box;
+  padding: 10px 16px;
+  border-radius: 100px;
+  display: flex;
+  gap: 5px;
+}
+
+.deleteIcon {
+  cursor: pointer;
+}

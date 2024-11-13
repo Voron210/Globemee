@@ -1,0 +1,14 @@
+.input_box{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    margin: 20px 0;
+    gap: 10px;
+}
+
+.btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 32px;
+}

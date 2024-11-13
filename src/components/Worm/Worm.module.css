@@ -1,0 +1,37 @@
+.rangeContainer {
+    display: flex;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 100px;
+    overflow: hidden;
+    height: 40px;
+    width: 100%;
+    margin: 10px auto;
+  }
+  
+  .rangeContainer.error {
+    border-color: var(--errorRed);
+  }
+  
+  .rangeOption {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+    border-left: 1px solid #ccc;
+    background-color: white;
+  }
+  
+  .rangeOption.selected {
+    background-color: var(--orange-100);
+    color: white;
+  }
+  
+  .rangeOption:hover {
+    background-color: var(--orange-60);
+    color: white;
+  }
+  
+  .rangeOption:first-child {
+    border-left: none;
+  }

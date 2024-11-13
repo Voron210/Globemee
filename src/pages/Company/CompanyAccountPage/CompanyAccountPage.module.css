@@ -1,0 +1,23 @@
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 400px;
+}
+
+.settings_btn {
+  width: 250px;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.section_wrapper {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
